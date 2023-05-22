@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.prayerapp.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_prayersFragment"
+            app:destination="@id/prayersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_prayersRecordFragment"
+            app:destination="@id/prayersRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prayersFragment"
+        android:name="com.example.prayerapp.fragments.PrayersFragment"
+        android:label="fragment_prayers"
+        tools:layout="@layout/fragment_prayers" >
+        <action
+            android:id="@+id/action_prayersFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/prayersRecordFragment"
+        android:name="com.example.prayerapp.fragments.PrayersRecordFragment"
+        android:label="fragment_prayers_record"
+        tools:layout="@layout/fragment_prayers_record" >
+        <action
+            android:id="@+id/action_prayersRecordFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_prayersRecordFragment_to_detailRecordFragment"
+            app:destination="@id/detailRecordFragment" />
+        <argument
+            android:name="index"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailRecordFragment"
+        android:name="com.example.prayerapp.fragments.DetailRecordFragment"
+        android:label="fragment_detail_record"
+        tools:layout="@layout/fragment_detail_record" >
+        <action
+            android:id="@+id/action_detailRecordFragment_to_prayersRecordFragment"
+            app:destination="@id/prayersRecordFragment" />
+        <argument
+            android:name="num"
+            app:argType="integer"
+            android:defaultValue="3" />
+    </fragment>
+</navigation>

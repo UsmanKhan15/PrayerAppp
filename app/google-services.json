@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1089365046849",
+    "firebase_url": "https://chatapplication-3db4f-default-rtdb.firebaseio.com",
+    "project_id": "chatapplication-3db4f",
+    "storage_bucket": "chatapplication-3db4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089365046849:android:4874dd973cd682dafd38c0",
+        "android_client_info": {
+          "package_name": "com.example.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089365046849-g6bfav0d6bk0jphb35amelf3mvid1qpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3frBwZvkUTO0xSifrS_WV0gqKCP84WUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089365046849-g6bfav0d6bk0jphb35amelf3mvid1qpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089365046849:android:2738578f55252f41fd38c0",
+        "android_client_info": {
+          "package_name": "com.example.prayerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089365046849-g6bfav0d6bk0jphb35amelf3mvid1qpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3frBwZvkUTO0xSifrS_WV0gqKCP84WUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089365046849-g6bfav0d6bk0jphb35amelf3mvid1qpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PrayerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleFajr">Fajr</string>
+    <string name="titleDhuhr">Dhuhr</string>
+    <string name="titleAsr">Asr</string>
+    <string name="titleMaghrib">Maghrib</string>
+    <string name="titleIsha">Isha</string>
+    <string name="titlePrayers">Prayers</string>
+    <string name="titleDate">Date</string>
+    <string name="titleDone">Done</string>
+    <string name="titleYear">Year</string>
+    <string name="titleAll">All</string>
+    <string name="titleWeek">Week</string>
+    <string name="titleMonth">Month</string>
+    <string name="titlePercentWeek">Percentage</string>
+    <string name="titlePercentMonth">Percentage</string>
+    <string name="titlePercentYear">Percentage</string>
+    <string name="titlePercentAll">Percentage</string>
+    <string name="titleSplash">Welcome to Prayer Record App</string>
+    <string name="titleStart">Let\'s Get Started</string>
+</resources>
